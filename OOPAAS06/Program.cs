@@ -5,12 +5,12 @@
         static void Main(string[] args) {
             #region q1
             Point3D P1 = ReadPointFromUser("P1");
-          Point3D P2 = ReadPointFromUser("P2");
+         Point3D P2 = ReadPointFromUser("P2");
 
         Console.WriteLine(P1);
-            Console.WriteLine(P2);
+        Console.WriteLine(P2);
 
-          
+         
             Console.WriteLine(P1 == P2
                 ? "P1 and P2 reference are the same"
                 : "P1 and P2 reference are different");
